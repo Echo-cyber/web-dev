@@ -1,0 +1,158 @@
+
+.wd-bodyStyle {
+    font-family: Arial, sans-serif;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-right: 16px;
+    background: black;
+    color: white;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-title {
+    margin-bottom: 12px;
+    border-bottom: solid lightgrey 1px;
+
+}
+
+.wd-handle {
+    color:lightgrey;
+    font-size: 13px;
+}
+
+.wd-post {
+    margin-top:12px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    width:100%;
+}
+
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-post-original-cited {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    width:100%;
+}
+
+.wd-original-post {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    width:100%;
+}
+
+.wd-original-post-wrap {
+    margin-left:12px;
+}
+
+.wd-author-info {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    font-size: 15px;
+    width: 100%;
+}
+.wd-author-name {
+    color: white;
+}
+.wd-author-handle {
+    color:lightgrey;
+    margin-left: 2px;
+}
+
+.wd-original-post-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-bottom: 12px;
+}
+
+.wd-cited-post {
+    margin-left: 12px;
+    border-radius: 25px;
+    border: solid lightgrey 1px;
+    max-width: 506px;
+}
+
+
+.wd-post-image {
+    width: 504px;
+    height: 264px;
+    border-radius: 25px;
+}
+
+.wd-cited-title-content {
+    padding: 12px;
+    max-width: 506px;
+}
+
+.wd-cited-title {
+    font-weight:bold;
+    font-size: 15px;
+    color:white;
+}
+
+.wd-cited-content {
+    font-size: 15px;
+    color: lightgrey;
+}
+.wd-link-icon {
+    color: white;
+    width: 12px;
+    height: 12px;
+}
+.wd-link-url {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 100%;
+    color:lightgrey;
+}
+
+
+.wd-post-operations {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    font-size: 15px;
+    color:lightgrey;
+    padding-top: 12px;
+}
+
+.wd-post-operations {
+    margin-left: 18px;
+}
+.wd-post-op {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin-right: 100px;
+    font-size: 15px;
+    color:lightgrey;
+}
+
+.wd-post-icon {
+    color: lightgrey;
+}
+.wd-op-num {
+    margin-left: 12px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.wd-op-num-like {
+    color:red;
+    margin-left: 12px;
+
+}
