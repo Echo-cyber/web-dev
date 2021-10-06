@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    padding-top: 54px;
+    padding-left:50px;
+    padding-right:50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+
+}
+
+.list-group-item button {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 10px;
+    left:20px;
+}
+
+.wd-nav-tabs {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+/*}*/
+.card-img-top {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.container-fluid {
+    align-items: center;
+    position: relative;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-side-img {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    margin-left: 0;
+    border-radius: 50%;
+
+}
+
+.list-group-item.head {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
