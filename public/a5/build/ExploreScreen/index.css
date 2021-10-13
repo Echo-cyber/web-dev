@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    padding-top: 54px;
+    padding-left:50px;
+    padding-right:50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.list-group-item button {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 10px;
+    left:20px;
+}
+
+.wd-nav-tabs {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-link {
+    color:#6e767d;
+}
+
+.nav-link.active {
+    background-color: black;
+}
+
+.active {
+    font-weight:bolder;
+    background-color: #1DA1F2;
+}
+
+
+/*}*/
+.card-img-top {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.container-fluid {
+    align-items: center;
+    position: relative;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-side-img {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    margin-left: 0;
+    border-radius: 50%;
+}
+
+.list-group {
+    background-color: black;
+    color: white;
+}
+
+.list-group-item {
+    background-color: black;
+    color:white;
+}
+
+
+.nav-item a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px;"
+}
+
+.wd-nav-tabs a.nav-link.active{
+    background-color: black;
+    color: white;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px;
+    border-bottom: solid 4px rgb(29, 161, 242);
+}
+
+.btn {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.tweet-btn {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+
+.card {
+    background-color:black;
+    color: white;
+}
+
+.list-group-item.head {
+    font-weight: bold;
+    font-size: large;
+}
+
+.list-group-item.wd-right {
+    background-color: #15181c;
+}
