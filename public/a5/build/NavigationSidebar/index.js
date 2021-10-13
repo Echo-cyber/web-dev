@@ -1,19 +1,20 @@
 const NavigationSidebar = () => {
     return(`
-            <div class="list-group mt-2">
+            <ul class="list-group mt-2">
                 <a class="list-group-item" href="/">
                     <i class="fab fa-twitter"></i></a>
             <!-- continue the rest of the list -->
             <li class="list-group-item">
+            
         <div class="row">
             <div class="col-2">
                 <a href="#">
                     <i class="fas fa-home" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="../../Challenge/HomeScreen/index.html" class="text-decoration-none" style="color: white">Home</a>
-            </div>
+            </span>
 
         </div>
     </li>
@@ -25,9 +26,9 @@ const NavigationSidebar = () => {
                     <i class="fas fa-hashtag" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="index.html" class="text-decoration-none" style="color: white">Explore</a>
-            </div>
+            </span>
 
         </div>
     </li>
@@ -39,9 +40,9 @@ const NavigationSidebar = () => {
                     <i class="fas fa-bell" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="#" class="text-decoration-none" style="color: white">Notifications</a>
-            </div>
+            </span>
 
         </div>
     </li>
@@ -53,9 +54,9 @@ const NavigationSidebar = () => {
                     <i class="far fa-envelope" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="#" class="text-decoration-none" style="color: white">Messages</a>
-            </div>
+            </span>
 
         </div>
     </li>
@@ -67,9 +68,9 @@ const NavigationSidebar = () => {
                     <i class="far fa-bookmark" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="#" class="text-decoration-none" style="color: white">Bookmarks</a>
-            </div>
+            </span>
 
         </div>
     </li>
@@ -81,9 +82,9 @@ const NavigationSidebar = () => {
                     <i class="fas fa-list" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="#" class="text-decoration-none" style="color: white">Lists</a>
-            </div>
+            </span>
 
         </div>
     </li>
@@ -96,9 +97,9 @@ const NavigationSidebar = () => {
                     <i class="fas fa-user-alt" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="#" class="text-decoration-none" style="color: white">Profile</a>
-            </div>
+            </span>
 
         </div>
     </li>
@@ -112,12 +113,12 @@ const NavigationSidebar = () => {
               <i class="fas fa-ellipsis-h fa-stack-1x" style="color:white"></i>
                 </a>
             </div>
-            <div class="col-10 d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-2">
                 <a href="#" class="text-decoration-none" style="color: white">More</a>
-            </div>
+            </span>
         </div>
     </li>
-            </div>
+            </ul>
             <div class="d-grid mt-2">
                 <a href="tweet.html"
                    class="btn btn-primary btn-block rounded-pill">
