@@ -140,6 +140,9 @@
 .wd-post-operations {
     margin-left: 18px;
 }
+
+
+
 .wd-post-op {
     display: flex;
     align-items: stretch;
@@ -149,11 +152,15 @@
     color:lightgrey;
 }
 
+
+
 .wd-post-icon {
-    color: lightgrey;
+    color: lightgray;
 }
 .wd-op-num {
     margin-left: 12px;
+    text-decoration: none;
+    color: lightgray;
 }
 
 .fa-heart {
@@ -163,5 +170,6 @@
 .wd-op-num-like {
     color:red;
     margin-left: 12px;
+    text-decoration: none;
 
 }
