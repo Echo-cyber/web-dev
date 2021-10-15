@@ -12,12 +12,14 @@
 .wd-title {
     margin-bottom: 12px;
     border-bottom: solid lightgrey 1px;
+    font-size: 20px;
 
 }
 
 .wd-handle {
-    color:lightgrey;
+    color:lightgray;
     font-size: 13px;
+    margin-bottom: 12px;
 }
 
 .wd-post {
@@ -32,6 +34,7 @@
     border-radius: 50%;
     width: 48px;
     height: 48px;
+    margin-right: 12px;
 }
 
 .wd-post-original-cited {
@@ -85,7 +88,8 @@
 .wd-post-image {
     width: 504px;
     height: 264px;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .wd-cited-title-content {
