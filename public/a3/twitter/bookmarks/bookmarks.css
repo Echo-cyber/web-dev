@@ -64,10 +64,12 @@
 }
 .wd-author-name {
     color: white;
+    font-size: 15px;
 }
 .wd-author-handle {
-    color:lightgrey;
+    color:lightgray;
     margin-left: 2px;
+    font-size: 15px;
 }
 
 .wd-original-post-content {
@@ -75,9 +77,11 @@
     font-size: 15px;
     max-width: 506px;
     margin-bottom: 12px;
+    margin-right: 16px;
 }
 
 .wd-cited-post {
+    margin-top: 12px;
     margin-left: 12px;
     border-radius: 25px;
     border: solid lightgrey 1px;
@@ -90,6 +94,7 @@
     height: 264px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-bottom: 1px solid lightgray;
 }
 
 .wd-cited-title-content {
