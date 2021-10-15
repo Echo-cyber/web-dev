@@ -7,7 +7,8 @@
     left: 50px;
     right: 50px;
     background-color: black;
-    padding:10px
+    padding:10px;
+    margin-top: 25px;
 }
 
 .wd-head-wrapper {
@@ -64,7 +65,7 @@ input {
     padding-top:16px;
     padding-bottom: 16px;
     float:left;
-    color: darkgray;
+    color: rgb(110, 118, 125);
     box-sizing: border-box;
     text-decoration: none;
     border-bottom: 3px solid transparent;
@@ -82,11 +83,12 @@ input {
 
 .wd-posts {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
     position: relative;
-    padding-top: 10px;
+
     float:left;
+    padding:0;
 }
 
 .wd-post-element {
