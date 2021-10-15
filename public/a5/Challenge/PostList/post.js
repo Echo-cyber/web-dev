@@ -6,6 +6,6 @@ export default [
     { avatarIcon: '../../images/nypost.png', username:'New York Post', handle: 'nypost',
         topic: 'Grimes seen reading Karl Marx following split with world’s richest man Elon Musk', postImage: '../../images/grimes.png', time: '23h',
         title: '', content: '',
-        link:'netflix.com', reply: '4.2k', retweet: '3.5k', like: '37.5k'},
+        link:'', reply: '4.2k', retweet: '3.5k', like: '37.5k'},
 
     ];

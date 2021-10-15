@@ -8,8 +8,8 @@ const PostList = () => {
         `<li class="list-group-item">${PostItem(p)}</li>`
          ).join('')}
         </ul>
-        
     `);
+
 }
 
 export default PostList;

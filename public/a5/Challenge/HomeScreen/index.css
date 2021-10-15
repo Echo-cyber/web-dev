@@ -54,12 +54,12 @@ body {
 
 
 /*}*/
-.card-img-top {
-    width: 100%;
-    padding: 12px;
-    border-radius: 25px;
-    object-fit: cover;
-}
+/*.card-img-top {*/
+/*    width: 100%;*/
+/*    padding: 12px;*/
+/*    border-radius: 25px;*/
+/*    object-fit: cover;*/
+/*}*/
 
 .container-fluid {
     align-items: center;
