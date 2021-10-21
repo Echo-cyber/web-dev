@@ -5,7 +5,7 @@ import React from "react";
 const PostSummaryList = () => {
     return (
         <>
-        <ul className="list-group">
+        <ul className="list-group mt-2">
             {
                 post.map(post => {
                     return(

@@ -44,6 +44,7 @@ const ExploreComponent = () => {
                 </ul>
 
                 <img src="../../images/spaceX.png" className="img-fluid mt-2" alt="spacex"/>
+
                     <PostSummaryList/>
 
         </>

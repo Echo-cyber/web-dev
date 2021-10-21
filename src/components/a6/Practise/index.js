@@ -4,6 +4,7 @@ import Classes from "./Classes";
 import Styles from "./Styles";
 import ConditionalOutput from "./ConditionalOutput";
 import TodoList from "./Todo/TodoList";
+import HelloWorld from "../HelloWorld";
 
 const Practice = () => {
     return (

@@ -5,7 +5,9 @@ import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a6/Practise/index";
 import Build from "./components/a6/Build/index";
 import {BrowserRouter, Route} from "react-router-dom";
-import Assignments from "./components/Assignments";
+import HomeScreen from "./components/a6/Build/HomeScreen/HomeScreen";
+import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
+import Assignment6Links from "./components/a6/Assignment6Links";
 
 
 
@@ -13,17 +15,23 @@ function App() {
   return (
       <BrowserRouter>
           <div className="container">
-          <Route path={"/"} exact={true}>
-              <Assignments/>
+          <Route path={"/a6/twitter/home"} exact={true}>
+              <HomeScreen/>
           </Route>
-          <Route path="/a6/hello" exact={true}>
-            <HelloWorld/>
+          <Route path="/a6/twitter/explore" exact={true}>
+                <ExploreScreen/>
           </Route>
-          <Route path={["/", "/a6", "/a6/practice"]} exact={true}>
+          <Route path={["/", "/a6"]} exact={true}>
+              <Assignment6Links/>
+          </Route>
+          <Route path="/a6/practice" exact={true}>
             <Practice/>
           </Route>
           <Route path="/a6/build" exact={true}>
             <Build/>
+          </Route>
+          <Route path="/a6/hello" exact={true}>
+              <HelloWorld/>
           </Route>
           </div>
       </BrowserRouter>

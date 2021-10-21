@@ -73,5 +73,21 @@ body {
     font-size: large;
 }
 
-
+.wd-Space {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.wd-image-space {
+    position: relative;
+    width: 100%;
+}
+.wd-text-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    font-weight: bold;
+    font-size: 30px;
+}
 
