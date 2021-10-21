@@ -1,4 +1,4 @@
-.wd-bodyStyle {
+body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
@@ -83,10 +83,10 @@ input {
 
 .wd-posts {
     display: flex;
+    width: 100%;
     align-items: stretch;
     flex-direction: column;
     position: relative;
-
     float:left;
     padding:0;
 }
