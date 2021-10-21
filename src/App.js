@@ -5,12 +5,17 @@ import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a6/Practise/index";
 import Build from "./components/a6/Build/index";
 import {BrowserRouter, Route} from "react-router-dom";
+import Assignments from "./components/Assignments";
+
 
 
 function App() {
   return (
       <BrowserRouter>
           <div className="container">
+          <Route path={"/"} exact={true}>
+              <Assignments/>
+          </Route>
           <Route path="/a6/hello" exact={true}>
             <HelloWorld/>
           </Route>
