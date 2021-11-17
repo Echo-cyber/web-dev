@@ -12,6 +12,9 @@ import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
 import Assignment6Links from "./components/a6/Assignment6Links";
 import History from "./components/history";
 
+import Practice8 from "./components/a8/Practise/index";
+import  Build8 from "./components/a8/Build/index";
+
 import who from "./reducers/who";
 import tweets from "./reducers/tweets";
 import profile from "./reducers/profile"
@@ -58,6 +61,13 @@ function App() {
           <Route path="/a7/twitter">
               <Build7/>
           </Route>
+
+          <Route path={["/a8", "/a8/practice"]} exact={true}>
+              <Practice8/>
+          </Route>
+              <Route path="/a8/twitter">
+                  <Build8/>
+              </Route>
 
           </div>
       </NKO>
