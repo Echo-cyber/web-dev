@@ -1,4 +1,5 @@
-const TWEET_API = 'http://localhost:4000/api/profile';
+// const TWEET_API = 'http://localhost:4000/api/profile';
+const TWEET_API = 'https://glacial-river-55323.herokuapp.com/api/profile';
 
 export const fetchCurrentProfile = (dispatch) =>
     fetch(TWEET_API)
