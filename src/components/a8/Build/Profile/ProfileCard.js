@@ -1,25 +1,15 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./profile.css";
-import {Link} from "react-router-dom";
-import DatePicker from "react-datepicker";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {fetchCurrentProfile, updateCurrentProfile} from "../../../../services/profileService";
 
-const ProfileCard = ({
-                         profile = {
-                             firstName: 'Jose',
-                             lastName: "Annunziato",
-                             handle: "jannunzi",
-                             profilePicture: "jose.png",
-                             bannerPicture: "../../../../../public/images/profilebg.jpg",
-                             bio: "Faculty, Software Engineer, AI, Space, and renewable enthusiast.",
-                             website: "youtube.com/webdevtv",
-                             location: "Boston, MA",
-                             dateOfBirth: "7/7/1968",
-                             dateJoined: "4/2009",
-                             followingCount: 312,
-                             followersCount: 180
-                         }
-                     }) => {
+const selectProfile = (state) => state.profile;
+const ProfileCard = () => {
+
+    const dispatch = useDispatch();
+    const profile = useSelector(selectProfile);
+    useEffect(() => fetchCurrentProfile(dispatch), [])
+
     const [isEdit, setIsEdit] = useState(false)
     const editChangeTrueHandler = (event) => {
         setIsEdit(true)
@@ -31,14 +21,21 @@ const ProfileCard = ({
 
 
     // const [profileData, setprofileData] = useState({do: '', done: false});
-    const dispatch = useDispatch();
-    const updateProfileClickHandler = (profileData) => {
+    // const dispatch = useDispatch();
+    const updateProfileClickHandler = (event) => {
         setIsEdit(false)
-        const action = {
-            type: 'update-profile',
-            profileData
-        };
-        dispatch(action);
+        // const action = {
+        //     type: 'update-profile',
+        //     profileData
+        // };
+        // dispatch(action);
+        // console.log('================>')
+        // console.log(profileData);
+        // console.log('================>')
+        updateCurrentProfile(dispatch, {
+             profile
+        });
+
     }
 
 

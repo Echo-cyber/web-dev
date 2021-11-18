@@ -57,29 +57,31 @@ const MovieApiClient = () => {
                         className="btn btn-success float-end">
                         Create
                     </button>
-                    <input className="form-control"
-                           defaultValue={movie.title}
-                           onChange={onMovieTitleChange}
-                           style={{width: "70%"}}/>
                     <button
                         onClick={saveMovie}
                         className="btn btn-primary ms-2 float-end">
                         Save
                     </button>
+                    <input className="form-control"
+                           defaultValue={movie.title}
+                           onChange={onMovieTitleChange}
+                           style={{width: "70%"}}/>
+
                 </li>
                 {
                     movies.map((movie) =>
                         <li className="list-group-item"
                             key={movie._id}>
                             {movie.title} {movie.rating}
-                            <button onClick={() => setMovie(movie)}
-                                    className="btn btn-primary float-end ms-2">
-                                Edit
-                            </button>
 
                             <button onClick={() => deleteMovie(movie)}
                                     className="btn btn-danger float-end">
                                 Delete
+                            </button>
+
+                            <button onClick={() => setMovie(movie)}
+                                    className="btn btn-primary float-end ms-2">
+                                Edit
                             </button>
 
 
