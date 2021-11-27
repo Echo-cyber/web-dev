@@ -1,6 +1,7 @@
 import Assignment6Links from "./a6/Assignment6Links";
 import Assignment7Links from "./a7/Assignment7Links";
 import Assignment8Links from "./a8/Assignment8Links";
+import Assignment9Links from "./a9/Assignment9Links";
 
 const History = () => {
     return (
@@ -42,6 +43,7 @@ const History = () => {
         <Assignment6Links/>
         <Assignment7Links/>
         <Assignment8Links/>
+        <Assignment9Links/>
 
     </div>
     )

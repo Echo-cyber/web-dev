@@ -21,6 +21,8 @@ import profile from "./reducers/profile"
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 import ProfileScreen from "./components/a7/Build/ProfileScreen";
+import {Link} from "react-router-dom";
+import A9 from "./components/a9/index"
 
 const reducer = combineReducers({tweets: tweets, who, profile})
 const store = createStore(reducer);
@@ -30,6 +32,9 @@ function App() {
   return (
       <NKO>
           <div className="container">
+              <Link to="/a8/practice">A8</Link> |
+              <Link to="/a9/practice">A9</Link>
+
               <Route path={["/","/assignment"]} exact={true}>
                   <History/>
               </Route>
@@ -68,6 +73,12 @@ function App() {
               <Route path="/a8/twitter">
                   <Build8/>
               </Route>
+
+              <Route path="/a9">
+                  <A9/>
+              </Route>
+
+
 
           </div>
       </NKO>
